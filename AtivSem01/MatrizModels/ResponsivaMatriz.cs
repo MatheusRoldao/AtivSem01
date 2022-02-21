@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AtivSem01.MatrizModels
 {
     class ResponsivaMatriz
-    {
+    { //propriedades instanciadas com seus respectivos métodos
         public int X { get; set; }
         public int Y { get; set; }
         public int[,] Matriz { get; set; }

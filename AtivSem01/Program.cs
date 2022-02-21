@@ -1,14 +1,12 @@
 ﻿using AtivSem01.Controles;
 using System;
-using System.Runtime.InteropServices;
+
 
 namespace AtivSem01
 {
     class Program
     {
-       
-        //Fim codigo para controle das propiedade de posição e tamanho da janela Console
-
+              
 
         static void Main(string[] args)
         {           
@@ -17,7 +15,7 @@ namespace AtivSem01
 
             var somaDaMatriz = Funcoes.PegaMatriz(responsivaMatriz.Matriz);
 
-            Console.WriteLine("\nA SOMA DAS LINHAS E COLUNAS É: {0}", somaDaMatriz);
+            Console.WriteLine("\nA SOMA DAS LINHAS E COLUNAS É: {0}", somaDaMatriz);//exibe a soma das posiçoes da matriz
 
             Console.ReadKey();
         }
